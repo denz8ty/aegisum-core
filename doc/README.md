@@ -3,9 +3,9 @@ Aegisum Core
 
 Setup
 ---------------------
-Aegisum Core is the original Aegisum client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Aegisum transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Aegisum Core is the original Aegisum client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Aegisum transactions, which requires up to 10 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few moments to a few hours.
 
-To download Aegisum Core, visit [aegisum.org](/).
+To download Aegisum Core wallet, visit [wallets](https://github.com/Aegisum/wallets).
 
 Running
 ---------------------
@@ -22,15 +22,13 @@ Unpack the files into a directory and run:
 
 Unpack the files into a directory, and then run aegisum-qt.exe.
 
-### macOS
+### macOS -- Not supported YET.
 
 Drag Aegisum Core to your applications folder, and then run Aegisum Core.
 
 ### Need Help?
 
-* See the documentation at the [Aegisum Wiki](https://aegisum.info/) for help and more information.
-* Ask for help on [#aegisum](https://webchat.freenode.net/#aegisum) on Freenode. If you don't have an IRC client, use [webchat here](https://webchat.freenode.net/#aegisum).
-* Ask for help on the [AegisumTalk](https://aegisumtalk.io/) forums, in the [Technical Support board](https://aegisumtalk.io/c/technical-support).
+* See the Website and Discord community for the most up to date information.
 
 Building
 ---------------------
@@ -62,10 +60,6 @@ The Aegisum repo's [root README](/README.md) contains relevant information on th
 - [BIPS](bips.md)
 - [Dnsseed Policy](dnsseed-policy.md)
 - [Benchmarking](benchmarking.md)
-
-### Resources
-* Discuss on the [AegisumTalk](https://aegisumtalk.io/) forums.
-* Discuss general Aegisum development on #aegisum-dev on Freenode. If you don't have an IRC client, use [webchat here](https://webchat.freenode.net/#aegisum-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
