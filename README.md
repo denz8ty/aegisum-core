@@ -1,85 +1,103 @@
-Aegisum Core integration/staging tree
-=====================================
+# Aegisum Core [AEGS, gisum]
 
-[![Build Status](https://travis-ci.org/aegisum-project/aegisum.svg?branch=master)](https://travis-ci.org/aegisum-project/aegisum)
+Aegisum is a secure, scalable, and community-driven blockchain built on Litecoin's foundation, optimized for high throughput and low fees. It utilizes the **Scrypt Proof of Work (PoW) algorithm** to ensure enhanced security and decentralization.
 
+## Features 🔥
 
+- **Secure**: Leveraging Scrypt PoW algorithm for enhanced security and decentralization.
+- **Scalable**: Built on Litecoin’s foundation, optimized for high throughput and low fees.
+- **Community-Driven**: Join a passionate community shaping the future of decentralized finance.
+- **Enhanced Scrypt Algorithm**: Improved ASIC resistance for better decentralization and fair mining opportunities.
+- **Optimized Block Propagation**: Faster network synchronization for improved performance and reduced latency.
+- **No Smart Contracts**: Ensuring maximum security by avoiding complex smart contract vulnerabilities.
 
-What is Aegisum?
-----------------
+## Blockchain Specifications ⚙️
 
-Aegisum is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Aegisum uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Aegisum Core is the name of open source
-software which enables the use of this currency.
+| **Property**              | **Details**                   |
+|---------------------------|--------------------------------|
+| **Source Branch**        | 0.21                           |
+| **Algorithm**            | Scrypt Proof of Work          |
+| **Coin Name**            | Aegisum                        |
+| **Coin Abbreviation**    | AEGS                           |
+| **Public Address Letter** | A                             |
+| **Testnet Address Letter** | 1                           |
+| **Coin Unit**            | gisum                          |
+| **RPC Port**             | 22275                          |
+| **P2P Port**             | 22276                          |
+| **Block Reward**         | 500 coins                      |
+| **Block Halving**        | Every 100,000 blocks           |
+| **Coin Supply**         | 1,000,000,000 coins            |
 
-For more information, as well as an immediately useable, binary version of
-the Aegisum Core software, see []().
+## Advanced Properties 🚀
 
-License
--------
+| **Property**             | **Value**                                              |
+|--------------------------|------------------------------------------------------|
+| **Coinbase Maturity**   | 20 (+1 default confirmation) blocks                 |
+| **Target Spacing**      | 3 minutes                                           |
+| **Target Timespan**     | 9 minutes                                           |
+| **Transaction Confirmations** | 3 blocks                                     |
+| **Timestamp Message**   | "Aegisum protects from crypto rugs and supports real causes" |
 
-Aegisum Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
+## Getting Started 💻
 
-Development Process
--------------------
+To start your journey with Aegisum Core, see the **installation guide** and the **getting started tutorial**.
 
-The `master` branch is regularly built (see `doc/build-*.md` for instructions) and tested, but it is not guaranteed to be
-completely stable. [Tags](/tags) are created
-regularly from release branches to indicate new official, stable release versions of Aegisum Core.
+The JSON-RPC API provided by Aegisum Core is self-documenting and can be browsed with:
+```bash
+aegisum-cli help
+```
+Or for detailed command info:
+```bash
+aegisum-cli help <command>
+```
+Alternatively, refer to the Bitcoin Core documentation, which follows a similar protocol.
 
-The https://github.com/Aegisum/Wallet repository is used exclusively for the
-development of the GUI. Its master branch is identical in all monotree
-repositories. Release branches and tags do not exist, so please do not fork
-that repository unless it is for development reasons.
+## Network Ports 🌐
 
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
-and useful hints for developers can be found in [doc/developer-notes.md](doc/developer-notes.md).
+| **Function** | **Mainnet** | **Testnet** | **Regtest** |
+|-------------|------------|------------|------------|
+| **P2P**    | 22276      | NA| NA|
+| **RPC**    | 22275      | NA| NA|
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/aegisum-dev)
-should be used to discuss complicated or controversial changes before working
-on a patch set.
+## Ongoing Development 💻
 
-Developer IRC can be found on Freenode at #aegisum-dev.
+Aegisum Core is an **open-source, community-driven** software. The development process is transparent, and anyone can contribute.
 
-Testing
--------
+### Main Development Resources
+- **[GitHub Repository](https://github.com/aegisum/core)** – Follow the latest developments.
+- **GitHub Discussions** – Discuss new features and improvements.
+- **[Aegisum Community](https://github.com/Aegisum/core/main/README.md#community--socials-)** – Join the growing community.
 
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
+## Version Strategy 📌
 
-### Automated Testing
+Aegisum Core follows **major.minor.patch** versioning.
 
-Developers are strongly encouraged to write [unit tests](src/test/README.md) for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run
-(assuming they weren't disabled in configure) with: `make check`. Further details on running
-and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
+### Branches:
+- **master**: Stable, contains the latest major release.
+- **maintenance**: Stable, contains previous releases under maintenance.
+- **development**: Unstable, contains new code for upcoming releases.
 
-There are also [regression and integration tests](/test), written
-in Python, that are run automatically on the build server.
-These tests can be run (if the [test dependencies](/test) are installed) with: `test/functional/test_runner.py`
+## Contributing 🤝
 
-The Travis CI system makes sure that every pull request is built for Windows, Linux, and macOS, and that unit/sanity tests are run automatically.
+If you encounter a bug or have suggestions, please report it via the **[issue system](https://github.com/aegisum/aegisum-core/issues)**.
 
-### Manual Quality Assurance (QA) Testing
+Want to contribute? Check the **contribution guide** for details on how to help improve Aegisum Core.
 
-Changes should be tested by somebody other than the developer who wrote the
-code. This is especially important for large or high-risk changes. It is useful
-to add a test plan to the pull request description if testing the changes is
-not straightforward.
+## Community & Socials 🐉
 
-Translations
-------------
+Join the Aegisum community and be part of the movement!
 
-We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to Aegisum periodically.
+- **[Website](https://aegisum.com)**
+- **[Discord](https://discord.gg/aegisum)**
+- **[Twitter/X](https://twitter.com/aegisum)**
+- **[Telegram](https://t.me/aegisum)**
+- **[Reddit](https://reddit.com/r/aegisum)**
 
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
+## License ⚖️
 
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
+Aegisum Core is released under the **MIT license**. See `COPYING` for more details.
+
+---
+
+🚀 *Aegisum – Protecting the Future of Decentralized Finance* 🚀
+
