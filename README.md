@@ -59,10 +59,10 @@ Alternatively, refer to the Bitcoin Core documentation, which follows a similar 
 
 ## Network Ports 🌐
 
-| **Function** | **Mainnet** | **Testnet** | **Regtest** |
-|-------------|------------|------------|------------|
-| **P2P**    | 22276      | NA| NA|
-| **RPC**    | 22275      | NA| NA|
+| **Function** | **Mainnet** |
+|-------------|------------|
+| **P2P**    | 22276      | 
+| **RPC**    | 22275      | 
 
 ## Ongoing Development 💻
 
