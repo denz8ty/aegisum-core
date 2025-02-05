@@ -45,7 +45,7 @@ Aegisum is a secure, scalable, and community-driven blockchain built on Litecoin
 
 ## Getting Started 💻
 
-To start your journey with Aegisum Core, see the **[core installation guide](https://github.com/Aegisum/aegisum-core/blob/main/coreinstallationguide.md)**.
+To start your journey with Aegisum Core, see the **[install.md](https://github.com/Aegisum/aegisum-core/blob/main/INSTALL.md)**.
 
 The JSON-RPC API provided by Aegisum Core is self-documenting and can be browsed with:
 ```bash
