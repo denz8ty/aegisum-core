@@ -14,7 +14,7 @@ Building Aegisum
 
 ### Steps:
 1. **Download & Extract**
-   - Download the latest Windows release: **windows-aegisum-core.zip**
+   - Download the latest [Windows Release](https://github.com/Aegisum/aegisum-core/releases): **windows-aegisum-core.zip**
    - Extract the ZIP file using WinRAR, 7-Zip, or the built-in Windows extractor.
 
 2. **Install Aegisum Core**
