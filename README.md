@@ -93,7 +93,7 @@ Want to contribute? Check the **contribution guide** for details on how to help 
 Join the Aegisum community and be part of the movement!
 
 - **[Website](https://aegisum.com)**
-- **[Discord](https://discord.gg/aegisum)**
+- **[Discord](https://discord.gg/4E5caDKkeP)**
 - **[Twitter/X](https://twitter.com/aegisum)**
 - **[Telegram](https://t.me/aegisum)**
 - **[Reddit](https://reddit.com/r/aegisum)**
