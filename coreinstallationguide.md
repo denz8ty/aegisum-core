@@ -1,5 +1,10 @@
 # Aegisum Core Installation Guide
 
+## Table of Contents
+- [Windows Installation](#windows-installation-)
+- [Linux Installation](#linux-installation-)
+- [Troubleshooting](#troubleshooting-)
+
 ## Windows Installation 🪟
 
 **Warning:** Windows may flag the software as a virus. This is a false positive. You can verify its safety using the VirusTotal link below:
