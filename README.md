@@ -1,7 +1,12 @@
-# Aegisum Core [AEGS, gisum]
+# Aegisum Core [AEGS]
 
 Aegisum is a secure, scalable, and community-driven blockchain built on Litecoin's foundation, optimized for high throughput and low fees. It utilizes the **Scrypt Proof of Work (PoW) algorithm** to ensure enhanced security and decentralization.
 
+## Our mission 🎯
+
+- **Crypto Safety & Awareness**: Our main mission to make people aware of what crypto rug pulls and scams are. Users will learn to identify red flags, report suspicious projects, and access resources to protect themselves from scams. We aim to create a safer crypto space by promoting transparency and education within the community.
+- **Charity & Real Causes**: Our secondary mission is to support real causes. Of these real causes we will be allocating a % of all funds to help those in need and to make the world a better place.
+  
 ## Features 🔥
 
 - **Secure**: Leveraging Scrypt PoW algorithm for enhanced security and decentralization.
