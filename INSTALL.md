@@ -40,7 +40,7 @@ wget --content-disposition -O linux-aegisum-wallet.tar https://github.com/Aegisu
 
 ### 3. Extract the Files
 ```bash
-tar -xvf linux-aegisum-wallet.tar
+tar -czvf linux-aegisum-wallet.tar
 ```
 
 ### 4. Install Aegisum Core
