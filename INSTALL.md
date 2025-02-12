@@ -10,7 +10,7 @@ Building Aegisum
 
 **Warning:** Windows may flag the software as a virus. This is a false positive. You can verify its safety using the VirusTotal link below:
 
-[View VirusTotal Scan](https://www.virustotal.com/gui/file/66ec5005bddcb635fad418134cec43ee3f974cfed0dd2d98c9984a726fe29209/details)
+[View VirusTotal Scan](https://www.virustotal.com/gui/file/0fd44e69c136e943e7a1d65f0dd7e9a9e9d3a4abb43194f02e248b6ecf18356e/relations)
 
 ### Steps:
 1. **Download & Extract**
