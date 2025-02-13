@@ -5,7 +5,7 @@ Aegisum is a secure, scalable, and community-driven blockchain built on Litecoin
 ## Our mission 🎯
 
 - **Crypto Safety & Awareness**: Our main mission to make people aware of what crypto rug pulls and scams are. Users will learn to identify red flags, report suspicious projects, and access resources to protect themselves from scams. We aim to create a safer crypto space by promoting transparency and education within the community.
-- **Charity & Real Causes**: Our secondary mission is to support real causes. Of these real causes we will be allocating a % of all funds to help those in need and to make the world a better place.
+- **Charity & Real Causes**: Our secondary mission is to support real causes. Of these real causes we will be allocating portions of donations / funds to various charities in need.
   
 ## Features 🔥
 
